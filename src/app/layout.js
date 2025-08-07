@@ -23,16 +23,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-      <ClientAOSInit/>
-      <Navbar />
-        {children}
-      <Footer />
+      <html lang="en">
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <ClientAOSInit />
+      <div className="flex flex-col min-h-screen">
+          <Navbar />
+          <main className="flex-1 bg-white">
+              {children}
+          </main>
+          <Footer />
+      </div>
       </body>
-    </html>
+      </html>
   );
 }
