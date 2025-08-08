@@ -83,12 +83,7 @@ export default function About() {
             </section>
 
             {/* Improved Step Section */}
-            <section
-                className="relative bg-cover bg-center py-20"
-                style={{
-                    backgroundImage: `url('/img/d-slide-6.jpg')`,
-                }}
-            >
+            <section className="relative bg-cover bg-center py-20" style={{ backgroundImage: `url('/img/d-slide-6.jpg')`,}}>
                 <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/70"></div>
                 <div className="relative max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-10 text-center text-white">
                     {[

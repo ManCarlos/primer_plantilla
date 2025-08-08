@@ -88,16 +88,15 @@ export default function Navbar() {
                                 dropdownOpen ? "opacity-100 visible" : "opacity-0 invisible"
                             }`}
                         >
-                            <a href="/our-projects" onClick={closeMenus} className={dropdownLinkClass("/ourprojects")}>
+                            <a href="/our-projects" onClick={closeMenus} className={dropdownLinkClass("/our-projects")}>
                                 Our Projects
                             </a>
-                            <a href="/project-single" onClick={closeMenus} className={dropdownLinkClass("/projectsingle")}>
+                            <a href="/project-single" onClick={closeMenus} className={dropdownLinkClass("/project-single")}>
                                 Project Single
                             </a>
                         </div>
                     </div>
 
-                    <a href="/blog" onClick={closeMenus} className={navLinkClass("/blog")}>Blog</a>
                     <a href="/contact" onClick={closeMenus} className={navLinkClass("/contact")}>Contact</a>
 
                     <a

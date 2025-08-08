@@ -100,7 +100,6 @@ export default function ServicesCarousel() {
                     <div className="max-w-7xl mx-auto px-4 relative">
                         <Swiper
                             modules={[Navigation,Autoplay]}
-                            navigation
                             autoplay={{
                                 delay: 3000,
                                 disableOnInteraction: false,
@@ -134,6 +133,7 @@ export default function ServicesCarousel() {
 
             {/* Testimonials */}
             <section className="bg-red-50 py-16 px-4">
+
                 <div className="max-w-5xl mx-auto text-center" data-aos="fade-right">
                     <p className="text-sm font-bold uppercase text-gray-600 relative inline-block mb-2">
                         TESTIMONIAL
