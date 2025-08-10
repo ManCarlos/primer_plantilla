@@ -101,7 +101,7 @@ export default function Navbar() {
 
                     <a
                         href="#"
-                        className="inline-block bg-orange-500 text-white px-5 py-3 rounded hover:bg-orange-600 transition w-full md:w-auto text-center mt-4"
+                        className="inline-block bg-orange-500 text-white px-5 py-3 rounded hover:bg-orange-600 transition w-full md:w-auto text-center mt-"
                     >
                         Request a Quote
                     </a>

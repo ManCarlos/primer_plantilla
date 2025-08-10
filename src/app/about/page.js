@@ -3,10 +3,10 @@
 export default function About() {
 
     return (
-        <main className="min-h-screen bg-white">
+        <main className="min-h-screen relative bg-white">
             {/* Hero Section */}
             <section
-                className="relative h-64 md:h-80 bg-cover bg-center flex items-center justify-center"
+                className="relative w-fu h-64 md:h-80 bg-cover bg-center flex items-center justify-center"
                 style={{
                     backgroundImage: `url('/img/page-header.jpg')`,
                 }}
@@ -42,7 +42,7 @@ export default function About() {
                 <div className="space-y-8">
                     <div
                         className="flex items-start space-x-4"
-                        data-aos="fade-left"
+                        data-aos="fade-right"
                         data-aos-delay="100"
                     >
                         <i className="flaticon-factory text-orange-500 text-5xl"></i>
@@ -55,7 +55,7 @@ export default function About() {
                     </div>
                     <div
                         className="flex items-start space-x-4"
-                        data-aos="fade-left"
+                        data-aos="fade-right"
                         data-aos-delay="200"
                     >
                         <i className="flaticon-worker text-orange-500 text-5xl"></i>
@@ -68,7 +68,7 @@ export default function About() {
                     </div>
                     <div
                         className="flex items-start space-x-4"
-                        data-aos="fade-left"
+                        data-aos="fade-right"
                         data-aos-delay="300"
                     >
                         <i className="flaticon-gear text-orange-500 text-5xl"></i>
@@ -120,7 +120,7 @@ export default function About() {
                             className="rounded-lg shadow-lg"
                         />
                     </div>
-                    <div data-aos="fade-left">
+                    <div data-aos="fade-right">
                         <p className="uppercase text-sm text-gray-500 font-semibold mb-2">
                             Explore the features
                         </p>

@@ -12,7 +12,7 @@ export default function Contact() {
                     height="100%"
                     allowFullScreen=""
                     loading="lazy"
-                    className="border-0 w-full h-full"
+                    className="border-0 block border-0 w-full h-full"
                     referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
             </section>
